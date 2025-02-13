@@ -31,3 +31,28 @@ WHERE condition;
 
 It is possible to find some implementations of this chapter [here](/sql/WHERE.sql)
 
+### Chapter 6: ORDER BY and GROUP BY
+
+The ORDER BY command is used to sort the data that is returned by the SELECT command. It is possible to sort the data in ascending or descending order. The GROUP BY command is used to group the data that is returned by the SELECT command. It is possible to use aggregate functions, such as COUNT, SUM, AVG, MIN, and MAX, to aggregate the data.
+
+The ORDER BY command can be used in conjunction with the SELECT command, as shown below:
+
+```sql
+
+SELECT column1, column2
+FROM table
+ORDER BY column1 ASC, column2 DESC;
+
+```
+
+The GROUP BY command can be used in conjunction with the SELECT command, as shown below:
+
+```sql
+
+SELECT column1, column2, COUNT(*)
+FROM table
+GROUP BY column1, column2;
+
+```
+
+It is possible to find some implementations of this chapter [here](/sql/ORDER_BY_GROUP_BY.sql)
