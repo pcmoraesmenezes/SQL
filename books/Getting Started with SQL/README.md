@@ -11,4 +11,4 @@ The first three chapters of the book focus on introducing basic database concept
 
 This chapter focused on showing how the SELECT command is used. In addition, it showed some tricks, such as the use of aliases or even the generation of new columns in queries. An important point is that the select brings the information, but does not change it. Therefore, if I bring a new column in a select, it will not be persisted in the database.
 
-Since the only command shown was SELECT, there is no need to show the command here. It's possible to find some implementations of this chapter [here]()
+Since the only command shown was SELECT, there is no need to show the command here. It's possible to find some implementations of this chapter [here](/sql/SELECT.sql)
